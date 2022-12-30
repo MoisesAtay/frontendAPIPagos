@@ -1,0 +1,90 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #bfbfbf;
+    
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+
+}
+
+#central {
+    max-width: 370px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 250%;
+    color:#000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#login {
+    width: 100%;
+    padding: 80px 30px;
+    background-color: #909a9f;
+    
+    box-shadow: 5px 5px 10px #100b08;
+    
+    box-sizing: border-box;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 50px;
+    
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 13px 13px 13px 13px;
+
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #c4c4c4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 100%;
+    height: 40px;
+    width: 150px;
+    border: none;
+    
+    border-radius: 15px 15px 15px 15px;
+    
+    background-color: #ffffff;
+    
+    margin-top: 12px;
+}
+
+#login button:hover {
+    background-color: #0f4c75;
+    color:#bbe1fa;
+}
+
+
